@@ -1,9 +1,10 @@
-# real_time_video_analytics
-Real Time Video Content Analysis for Construction
+# Real Time Video Analysis for Construction Safety
+
+Example Output:
 
 ![image](https://github.com/user-attachments/assets/bbe0d4e3-30d4-47ff-8eaf-9ffeb82c90eb)
 
-# Real-Time Video Analytics for Construction Safety
+# Description:
 
 This Python application leverages a retrained YOLOv11 model on a publicly available construction site safety dataset to detect unsafe practices in video footage. A sample video file has been provided for testing, showcasing recut clips of popular YouTube fails.
 
