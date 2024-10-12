@@ -5,7 +5,8 @@ import supervision as sv
 from ultralytics import YOLO
 import numpy as np
 
-model = YOLO("/Users/noah_/Documents/Development/2024_Projects/GroundUp/runs/detect/train3/weights/best.pt")
+## CHANGE TO YOUR RETRAINED WEIGHTS
+model = YOLO("/Users/noah_/Documents/Development/2024_Projects/real_time_video_analytics/runs/detect/train3/weights/best.pt")
 
 tracker = sv.ByteTrack(minimum_consecutive_frames=3)
 tracker.reset()
